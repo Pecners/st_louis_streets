@@ -33,9 +33,14 @@ roads <- map(queries, function(x) {
 
 names(roads) <- queries
 
-# Read in neighborhoods shapefile.
+# Read in city boundaries shapefile
 
-hoods <- st_read("shapeFiles/neighborhoods/Neighborhood_Boundaries.shp") %>%
+city <- st_read("shapefiles/stl_boundary/stl_boundary.shp") %>%
+  st_transform(., crs = st_crs(4326))
+
+# Read in neighborhoods shapefile
+
+hoods <- st_read("shapefiles/neighborhoods/Neighborhood_Boundaries.shp") %>%
   st_transform(., crs = st_crs(4326))
 
 # Create alphabetically ordered vector of neighborhood names
