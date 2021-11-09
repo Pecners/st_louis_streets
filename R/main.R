@@ -10,7 +10,7 @@ city_roads <- map(roads, function(x) {
     st_intersection(., city)
 })
 
-size <- 0.001
+size <- 0.01
 background <- "black"
 color <- "white"
 
