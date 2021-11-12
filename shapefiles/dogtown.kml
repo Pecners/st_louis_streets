@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Dogtown - in St. Louis, Missouri</name>
+    <description><![CDATA[This map shows the boundaries of Dogtown, an area within the city of St. Louis, just south of Forest Park, as defined by the Dogtown Historical Society in 2002.<br>http://www.webster.edu/~corbetre/dogtown/dogtown.html<br><br>Dogtown is bounded by Oakland Anvenue on the north, Macklind Avenue on the east, Manchester Avenue and I-44 on the south, and McCausland Avenue on the west. The area includes 4 neighborhoods recognized by the city of St. Louis, and part of another:<br><br>Clayton-Tamm<br>Hi-Pointe<br>Cheltenham<br>Franz Park<br>part of Ellendale<br><br>Be sure to read Bob Corbett's article about the name and location of Dogtown http://www.webster.edu/~corbetre/dogtown/dogtown.html<br><br>Dogtown is best known for its annual St. Patrick's Day Parade:  <br><br>http://www.stlhibernians.com/events2/2012/stp/st_patricks_day_parade_dogtown_2012.html<br><br>To share this map, use this link:<br>http://tinyurl.com/dogtownstlouis<br><br>To learn more about St Louis neighborhoods, visit: http://stlouis-mo.gov/neighborhoods]]></description>
+    <Style id="icon-101-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-101-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-101-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-101-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-101-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-111-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-111-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/111-purple-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-111-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-111-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-111-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-123-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-123-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-123-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-123-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-123-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-157-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-157-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-157">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-157-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-157-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-61-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-61-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Dogtown (St. Louis)</name>
+        <description>Boundaries as defined by the Dogtown Historical Society in 2002.</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -90.28178,38.62314,0
+            -90.287876,38.622302,0
+            -90.28845,38.61941,0
+            -90.29466,38.61693,0
+            -90.29534,38.62092,0
+            -90.30891,38.61666,0
+            -90.30607,38.63118,0
+            -90.3044,38.63266,0
+            -90.28672,38.63091,0
+            -90.27449,38.62957,0
+            -90.2756,38.62397,0
+            -90.28178,38.62314,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Clayton-Tamm intersection</name>
+        <description><![CDATA[Referred to as Downtown Dogtown, and starting point of the annual St. Patrick's Day Parade.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.292811,38.628337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. James the Greater </name>
+        <styleUrl>#icon-61-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.293369,38.626074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roe School</name>
+        <styleUrl>#icon-111-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.304656,38.621967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Franz Park</name>
+        <styleUrl>#icon-101-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.302682,38.621833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hi-Pointe Theatre</name>
+        <styleUrl>#icon-123-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.304871,38.632628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>eastern portion of Ellendale</name>
+        <description>South of Manchester, between Hampton and Dale Avenues</description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -90.29191,38.619754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
